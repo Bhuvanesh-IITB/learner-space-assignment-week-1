@@ -1,0 +1,209 @@
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('freefire.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    margin: 40px;
+   
+   
+}
+
+
+.head1{
+    text-align: center;
+    font-size:50px; 
+    font-family: papyrus,fantasy;
+    background: -webkit-linear-gradient(orange, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-weight:bold;
+    border: 3px;
+    
+}
+.head2{
+    text-align: center;
+    color:rgb(62, 12, 12);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.menu{
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.menu a{
+    color:black;
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+    
+}
+#home{text-align: justify;}
+#home h1{
+  color: bisque;
+  font-size: 30px;
+}
+
+#home div{
+  font-weight: 525;
+}
+#home li{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:wavy;
+    color: black;
+
+}
+#home h3{
+    font-size: 20px;
+    color: bisque;
+    font-weight: bolder;
+}
+#home p{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section{ display:none}
+section.active{display:block;}
+#gamehighlights li{font-weight: bold;color:black;}
+#howtogetstarted ol{font-weight: bold;font-size: 20px;color: black;}
+div { font-size: 20px;color: black;}
+#Introduction p{font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: justify;
+}
+#Introduction h1{
+      font-size: 30px;
+      color: bisque;
+}
+h1{color:black;
+    text-decoration: double;
+}
+h3{color: black;}
+#ff{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+#foot{
+    background-color: orange;
+    text-align: center;
+    bottom: 0;
+    position: sticky;
+    opacity: 0.9;
+    
+    
+}
+#download{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding: 50px;
+}
+#download button{
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+#download button:hover{
+    background-color: aqua;
+    
+}
+#quiz {
+    max-width: 600px ;
+    margin: 0 auto;
+    padding: 20px;
+    background-attachment:local;
+    background-image:url("freefire3.webp");
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+   
+  }
+  
+  #quiz1 h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  #question {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  #options {
+    display: block;
+      margin: 10px 20px; /* Add some margin for spacing */
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 10px;
+  }
+  
+  #submit {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color:yellow;
+    color: Black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #quiz1 button{
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+   
+   
+  }
+  
+ #quiz1 button:hover {
+    background-color: lightblue;
+  }
+  #quiz p{
+    color: white;
+    font-weight: bold;
+  }
+  #options button{
+    color:black;
+    font-weight: bold;
+  }
+  #howtogetstarted h1{
+    color: bisque;
+    font-size: 30px;
+  }
+  #gamehighlights h1{
+    color:black;
+    font-size: 30px;
+    
+
+  }
+  
